@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Layouting</string>
+    <string name="aa">
+        <![CDATA[
+        "Dengan menekan tombol masuk berarti Anda menyetujui <b>Ketentuan Pengguna</b> dan <b>Kebijakan Data</b> kami"
+        ]]>
+    </string>
+
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingBottom="0dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/teksnama"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Nama Panggilan Kamu"
+            android:textColor="@color/black"
+            android:textSize="28dp"
+            android:paddingBottom="10dp"></TextView>
+
+        <EditText
+            android:id="@+id/edittextnama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:inputType="text"
+            android:maxLines="1"
+            android:lines="1"
+            android:hint="Contoh : Budi"></EditText>
+
+        <TextView
+            android:id="@+id/teksumur"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Umur Kamu"
+            android:textColor="@color/black"
+            android:textSize="28dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"></TextView>
+
+        <EditText
+            android:id="@+id/edittextumur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textSize="16dp"
+            android:maxLines="1"
+            android:lines="1"
+            android:hint="Contoh : 12"></EditText>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:paddingTop="40dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:background="@color/white">
+
+        <Button
+            android:id="@+id/buttonselanjutnya"
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_custom"
+            android:text="Selanjutnya"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignBottom="@+id/buttonselanjutnya"
+            android:text=""></TextView>
+    </LinearLayout>
+
+</RelativeLayout>
